@@ -1,0 +1,52 @@
+.main-container{
+  width: 420px;
+  height: 750px;
+  background-color: rgb(71 212 173);
+  border-radius: 10px;
+  margin: 12px;
+  padding: 1px;
+}
+
+.container-user{
+  width: 360px;
+  height: 140px;
+  padding: 5px;
+  border: 2px solid white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin: 26px;
+  background-color: white;
+}
+
+.container-avatar{
+  border: 1px solid rgb(71 212 173);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 125px;
+  height: 98px;
+  align-self: center;
+}
+
+.container-avatar img{
+  width: 92px;
+  margin-left: 16px;
+}
+
+.user-description h5{
+  box-sizing: border-box;
+  margin: 20px; 
+  font-size: 20px;
+  font-family: 'Roboto',
+  sans-serif; 
+}
+
+.user-description p {
+  box-sizing: border-box;
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Roboto',
+  sans-serif;
+}
